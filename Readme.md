@@ -27,7 +27,6 @@ T_{n} \\
 T_{n-1} \\
 T_{n-2}
 \end{bmatrix} = 
-
 \begin{bmatrix}
 T_{n-1} + T_{n-2} + T_{n-3} \\
 T_{n-1} \\
@@ -43,15 +42,12 @@ T_{n} \\
 T_{n-1} \\
 T_{n-2}
 \end{bmatrix} = 
-
 \begin{bmatrix}
 1 & 1 & 1 \\
 1 & 0 & 0 \\
 0 & 1 & 0
 \end{bmatrix}
-
 *
-
 \begin{bmatrix}
 T_{n-1} \\
 T_{n-2} \\
@@ -78,10 +74,8 @@ T_{n} \\
 T_{n-1} \\
 T_{n-2}
 \end{bmatrix} = 
-
 A
 *
-
 \begin{bmatrix}
 T_{n-1} \\
 T_{n-2} \\
@@ -105,10 +99,8 @@ $$
 10121 \\
 6072
 \end{bmatrix} = 
-
 A
 *
-
 \begin{bmatrix}
 10121 \\
 6072 \\
@@ -124,10 +116,8 @@ $$
 6072 \\
 2025
 \end{bmatrix} =
-
 A
 *
-
 \begin{bmatrix}
 6072 \\
 2025 \\
@@ -143,10 +133,8 @@ $$
 10121 \\
 6072
 \end{bmatrix} = 
-
 A
 *
-
 \begin{bmatrix}
 10121 \\
 6072 \\
@@ -154,20 +142,17 @@ A
 \end{bmatrix}
 $$
 
-
 $$
 \begin{bmatrix}
 18218 \\
 10121 \\
 6072
 \end{bmatrix} = 
-
 A
 *
 (
 A
 *
-
 \begin{bmatrix}
 6072 \\
 2025 \\
@@ -183,10 +168,8 @@ $$
 2025 \\
 2024
 \end{bmatrix} = 
-
 A
 *
-
 \begin{bmatrix}
 2025 \\
 2024 \\
@@ -200,16 +183,12 @@ $$
 10121 \\
 6072
 \end{bmatrix} = 
-
 A
 *
-
 A
 *
-
 (A
 *
-
 \begin{bmatrix}
 2025 \\
 2024 \\
@@ -223,10 +202,8 @@ $$
 10121 \\
 6072
 \end{bmatrix} = 
-
 A^3
 *
-
 \begin{bmatrix}
 2025 \\
 2024 \\
@@ -250,10 +227,8 @@ T_{n} \\
 T_{n-1} \\
 T_{n-2}
 \end{bmatrix} = 
-
 A^{n-3}
 *
-
 \begin{bmatrix}
 T_3 \\
 T_2 \\
