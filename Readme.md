@@ -237,8 +237,15 @@ T_1
 $$
 
 En donde, para nuestro secuencia en especifico 2023, 2024, 2025...
+
 $$
-T_3 = 2025,
-T_2 = 2024,
+T_3 = 2025
+$$
+
+$$
+T_2 = 2024
+$$
+
+$$
 T_1 = 2021
 $$
